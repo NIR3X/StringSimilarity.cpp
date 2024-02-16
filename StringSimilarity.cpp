@@ -44,8 +44,6 @@ std::vector<std::pair<std::string, double>> CStringEmbeddings::FindSimilarsFor(c
 			distance += std::sqrt(delta * delta);
 		}
 
-		distance = distance;
-
 		similars.push_back({stringKey, distance});
 	}
 
